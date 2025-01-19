@@ -4,6 +4,10 @@ import java.util.concurrent.ThreadFactory;
 
 public class LoomThreadImplementation implements LoomThread {
 
+    static {
+        Thread.ofVirtual();
+    }
+
     @Override
     public Builder.OfPlatform ofPlatform() {
         return new OfPlatformImplementation(Thread.ofPlatform());

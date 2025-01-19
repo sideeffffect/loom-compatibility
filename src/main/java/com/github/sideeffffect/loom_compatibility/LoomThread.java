@@ -7,7 +7,7 @@ public interface LoomThread {
     static LoomThread load() throws LoomUnavailable {
         try {
             return new LoomThreadImplementation();
-        } catch (Exception e) {
+        } catch (LinkageError e) {
             throw new LoomUnavailable(e);
         }
     }

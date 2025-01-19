@@ -9,7 +9,7 @@ public interface LoomExecutors {
     static LoomExecutors load() throws LoomUnavailable {
         try {
             return new LoomExecutorsImplementation();
-        } catch (Exception e) {
+        } catch (LinkageError e) {
             throw new LoomUnavailable(e);
         }
     }
