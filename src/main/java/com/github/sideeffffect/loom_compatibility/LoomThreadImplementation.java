@@ -2,7 +2,7 @@ package com.github.sideeffffect.loom_compatibility;
 
 import java.util.concurrent.ThreadFactory;
 
-public class LoomThreadImplementation implements LoomThread {
+class LoomThreadImplementation implements LoomThread {
 
     static {
         Thread.ofVirtual();
