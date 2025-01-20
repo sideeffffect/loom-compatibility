@@ -5,3 +5,23 @@
 Compatibility for Java Loom.
 
 [JavaDoc](https://www.javadoc.io/doc/com.github.sideeffffect/loom-compatibility/latest)
+
+```xml
+<dependency>
+  <groupId>com.github.sideeffffect</groupId>
+  <artifactId>loom-compatibility</artifactId>
+  <version>0.20.0</version>
+</dependency>
+```
+
+```groovy
+implementation 'com.github.sideeffffect:loom-compatibility:0.20.0'
+```
+
+```kotlin
+implementation("com.github.sideeffffect:loom-compatibility:0.20.0")
+```
+
+```sbt
+libraryDependencies += "com.github.sideeffffect" % "loom-compatibility" % "0.20.0"
+```
