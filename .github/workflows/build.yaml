@@ -20,6 +20,9 @@ jobs:
           java-version: 21
           distribution: temurin
           cache: maven
+          server-id: ossrh
+          server-username: SONATYPE_USERNAME
+          server-password: SONATYPE_PASSWORD
 
       - name: Test
-        run: mvn test
+        run: mvn test package
