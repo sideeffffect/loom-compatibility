@@ -29,7 +29,7 @@ public interface LoomThread {
      * group of the constructing thread is used.
      *
      * @return A builder for creating {@code Thread} or {@code ThreadFactory} objects.
-     * @apiNote The following are examples using the builder:
+     * The following are examples using the builder:
      * {@snippet :
      *   // Start a daemon thread to run a task
      *   Thread thread = Thread.ofPlatform().daemon().start(runnable);
@@ -50,7 +50,7 @@ public interface LoomThread {
      * that creates virtual threads.
      *
      * @return A builder for creating {@code Thread} or {@code ThreadFactory} objects.
-     * @apiNote The following are examples using the builder:
+     * The following are examples using the builder:
      * {@snippet :
      *   // Start a virtual thread to run a task.
      *   Thread thread = Thread.ofVirtual().start(runnable);
@@ -115,7 +115,7 @@ public interface LoomThread {
          * @param start  the starting value of the counter
          * @return this builder
          * @throws IllegalArgumentException if start is negative
-         * @apiNote The following example creates a builder that is invoked twice to start
+         * The following example creates a builder that is invoked twice to start
          * two threads named "{@code worker-0}" and "{@code worker-1}".
          * {@snippet :
          *   Thread.Builder builder = Thread.ofPlatform().name("worker-", 0);
@@ -226,7 +226,7 @@ public interface LoomThread {
              * Sets the daemon status to {@code true}.
              *
              * @return this builder
-             * @implSpec The default implementation invokes {@linkplain #daemon(boolean)} with
+             * The default implementation invokes {@linkplain #daemon(boolean)} with
              * a value of {@code true}.
              */
             default OfPlatform daemon() {
