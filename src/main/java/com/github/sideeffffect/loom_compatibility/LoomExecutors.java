@@ -4,7 +4,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Future;
 import java.util.concurrent.ThreadFactory;
 
-public interface LoomExecutors {
+public interface LoomExecutors
 
     static LoomExecutors load() throws LoomUnavailable {
         try {
