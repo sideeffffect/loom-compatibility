@@ -1,0 +1,6 @@
+<configuration xmlns="http://jgitver.github.io/maven/configuration/1.2.0"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://jgitver.github.io/maven/configuration/1.2.0 https://jgitver.github.io/maven/configuration/jgitver-configuration-v1_2_0.xsd">
+    <strategy>CONFIGURABLE</strategy>
+    <useSnapshot>false</useSnapshot> <!-- use -SNAPSHOT in CONFIGURABLE strategy -->
+</configuration>
