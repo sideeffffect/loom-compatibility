@@ -25,4 +25,4 @@ jobs:
           server-password: SONATYPE_PASSWORD
 
       - name: Test
-        run: mvn test install
+        run: mvn test package
