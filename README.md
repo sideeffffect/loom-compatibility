@@ -10,18 +10,18 @@ Compatibility for Java Loom.
 <dependency>
   <groupId>com.github.sideeffffect</groupId>
   <artifactId>loom-compatibility</artifactId>
-  <version>0.20.0</version>
+  <version>0.2.0</version>
 </dependency>
 ```
 
 ```groovy
-implementation 'com.github.sideeffffect:loom-compatibility:0.20.0'
+implementation 'com.github.sideeffffect:loom-compatibility:0.2.0'
 ```
 
 ```kotlin
-implementation("com.github.sideeffffect:loom-compatibility:0.20.0")
+implementation("com.github.sideeffffect:loom-compatibility:0.2.0")
 ```
 
 ```sbt
-libraryDependencies += "com.github.sideeffffect" % "loom-compatibility" % "0.20.0"
+libraryDependencies += "com.github.sideeffffect" % "loom-compatibility" % "0.2.0"
 ```
